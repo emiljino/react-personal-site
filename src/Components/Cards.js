@@ -7,15 +7,15 @@ import "./Cards.css";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Take a look at my projects!</h1>
+      <h1>Take a look at my past and current projects</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/img-9.jpg"
-              text="A page showcasing my past and current projects"
-              label="Projects"
-              path="/projects"
+              src="images/SYaiscreenshot.jpg"
+              text="Modelled game mechanics and created a playable prototype of the board game Scotland Yard"
+              label="ScotLand Yard CW"
+              path="/scotlandyardcw"
             />
             <CardItem
               src="images/img-8.jpg"

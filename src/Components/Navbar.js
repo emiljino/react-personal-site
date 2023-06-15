@@ -40,7 +40,7 @@ function Navbar() {
         <div className="navbar-container">
           {/* Link to the home page */}
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            Emil Jino <i className="fab fa-typo3" />
+            Emil Jino <img src="../Images/CodeIcon.svg" alt="Code Icon" />
           </Link>
           {/* Menu icon for mobile devices */}
           <div className="menu-icon" onClick={handleClick}>
@@ -66,9 +66,15 @@ function Navbar() {
             </li>
             {/* Link to the CV page */}
             <li className="nav-item">
-              <Link to="/cv" className="nav-links" onClick={closeMobileMenu}>
+              <a
+                href={process.env.PUBLIC_URL + "/Software_Engineer_CV.pdf"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 CV
-              </Link>
+              </a>
             </li>
             {/* Link to the contact page */}
             <li className="nav-item">

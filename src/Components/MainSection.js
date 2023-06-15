@@ -22,14 +22,6 @@ function MainSection() {
         >
           GET STARTED {/* A button with specified props */}
         </Button>
-        <Button
-          className="btns"
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
-        >
-          WATCH TRAILER <i className="far fa-play-circle" />
-          {/* A button with specified props and an icon */}
-        </Button>
       </div>
     </div>
   );

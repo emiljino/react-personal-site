@@ -1,7 +1,19 @@
-import React from 'react'
+/** @format */
+
+import React from "react";
 import "../../App.css";
+import { Button } from "../Button";
+import ContactInfo from "../ContactInfo";
+import Footer from "../Footer";
 
-
-export default function Contact() {
-  return <h1 className='contact'>CONTACT</h1>;
+function Contact() { 
+  return (
+    <>
+      <ContactInfo />
+      {/* <Cards /> */}
+      <Footer />
+    </>
+  );
 }
+
+export default Contact;
