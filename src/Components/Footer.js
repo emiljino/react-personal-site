@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer-container">
-      <section className="footer-subscription">
+      {/* <section className="footer-subscription">
         <p className="footer-subscription-heading">
           Join the Adventure newsletter to receive our best vacation deals
         </p>
@@ -26,47 +26,30 @@ function Footer() {
             <Button buttonStyle="btn--outline">Subscribe</Button>
           </form>
         </div>
-      </section>
-      <div className="footer-links">
-        <div className="footer-link-wrapper">
-          <div className="footer-link-items">
-            <h2>About Me</h2>
-            <Link to="/contact">How it works</Link>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Terms of Service</Link>
-            <Link to="/">Privacy Policy</Link>
-          </div>
-        </div>
-      </div>
+      </section> */}
+      
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to="/" className="social-logo">
-              EMIL JINO <i className="fab fa-typo3" />
+              EMIL JINO <img src="../Images/CodeIcon.svg" alt="Code Icon" />
             </Link>
           </div>
-          <small className="website-rights">Copyright © 2023 Emil Jino. All rights reserved</small>
+          <small className="website-rights">
+            Copyright © 2023 Emil Jino. All rights reserved
+          </small>
           <div className="social-icons">
             <Link
-              className="social-icon-link facebook"
-              to="/"
+              className="social-icon-link-email"
+              to="mailto:emil_jino@hotmail.com"
               target="_blank"
-              aria-label="Facebook"
+              aria-label="Email"
             >
-              <i className="fab fa-facebook-f" />
-            </Link>
-            <Link
-              className="social-icon-link instagram"
-              to="/"
-              target="_blank"
-              aria-label="Instagram"
-            >
-              <i className="fab fa-instagram" />
+              <img src="../Images/email1.svg" alt="Email Icon" />
             </Link>
             <Link
               className="social-icon-link linkedin"
-              to="/"
+              to="https://www.linkedin.com/in/emil-jino-dev"
               target="_blank"
               aria-label="LinkedIn"
             >
@@ -74,7 +57,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link github"
-              to="/"
+              to="https://github.com/emiljino"
               target="_blank"
               aria-label="Github"
             >

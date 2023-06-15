@@ -7,36 +7,38 @@ video {
 }
 
 .main-container {
-  background: url("/images/img-home.jpg") center center/cover no-repeat; 
-  height: 100vh;
+  /* background: url("/images/img-home.jpg") center center/cover no-repeat;  */
+  height: 70vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.2);
   object-fit: contain;
 }
 
 .main-container > h1 {
   font-size: 100px;
-  color: #fff;
+  color: #000000;
   margin-top: -100px;
 }
 
 .main-container > p {
   font-size: 32px;
-  color: #fff;
+  color: #000000;
   margin-top: 8px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .main-btns {
   margin-top: 32px;
+  color: #000000;
 }
 
 .main-btns .btn {
   margin: 6px;
+  color: #000000;
 }
 
 .fa-play-circle {

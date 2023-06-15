@@ -8,6 +8,7 @@ import Home from "./Components/Pages/Home";
 import Projects from "./Components/Pages/Projects";
 import CV from "./Components/Pages/CV";
 import Contact from "./Components/Pages/Contact";
+import ScotlandYardCW from "./Components/Pages/ScotlandYardCW";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/projects" exact Component={Projects} />
           <Route path="/cv" exact Component={CV} />
           <Route path="/contact" exact Component={Contact} />
+          <Route path="/scotlandyardcw" exact Component={ScotlandYardCW} />
         </Routes>
       </Router>
     </>
