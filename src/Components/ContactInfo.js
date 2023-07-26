@@ -2,7 +2,7 @@
 
 import React from "react";
 import "../App.css";
-import "./ContactInfo.css";
+import "../Styles/ContactInfo.css";
 import { Button } from "./Button";
 
 const ContactInfo = () => {
@@ -10,8 +10,11 @@ const ContactInfo = () => {
     <div className="contact-container">
       <h1> Contact Me</h1>
       <section className="contact-info">
+        <div className="text-container">
         <p className="contact-heading">Get in touch</p>
-        <p className="contact-heading-text">Email: emil_jino@hotmail.com</p>
+        <p className="contact-heading-text">Have any questions? Drop me an email to find out more</p>
+        <p className="contact-heading-text1">Email: emil_jino@hotmail.com</p>
+        </div>
         <div className="input-areas">
           <form>
             <input
@@ -32,7 +35,7 @@ const ContactInfo = () => {
               placeholder="Message"
               className="contact-message-input"
             />
-            <Button buttonStyle="btn--outline">Submit</Button>
+            <Button buttonStyle="btn--outline">SEND</Button>
           </form>
         </div>
       </section>

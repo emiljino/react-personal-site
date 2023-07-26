@@ -3,11 +3,10 @@
 /* Importing React and CSS file for Button component */
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Button.css";
-
+import "../Styles/Button.css";
 // Define possible styles and sizes for the button
-const STYLES = ["btn--primary", "btn--outline"];
-const SIZES = ["btn--medium", "btn--large"];
+const STYLES = ["btn--primary", "btn--outline", "btn--text"];
+const SIZES = ["btn--medium", "btn--medium2", "btn--large"];
 
 // Define the Button component
 export const Button = ({

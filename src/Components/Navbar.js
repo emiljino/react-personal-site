@@ -3,7 +3,7 @@
 // Importing necessary dependencies
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
+import "../Styles/Navbar.css";
 import { Button } from "./Button";
 
 // Defining the Navbar component
