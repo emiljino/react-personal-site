@@ -8,7 +8,8 @@ import Home from "./Components/Pages/Home";
 import Projects from "./Components/Pages/Projects";
 import CV from "./Components/Pages/CV";
 import Contact from "./Components/Pages/Contact";
-import ScotlandYardCW from "./Components/Pages/ScotlandYardCW";
+import Footer from "./Components/Footer";
+import ProjectDisplay from "./Components/Pages/ProjectDisplay";
 
 
 function App() {
@@ -19,10 +20,11 @@ function App() {
         <Routes>
           <Route path="/" exact Component={Home} />
           <Route path="/projects" exact Component={Projects} />
+          <Route path="/project/:id" exact Component={ProjectDisplay} />
           <Route path="/cv" exact Component={CV} />
           <Route path="/contact" exact Component={Contact} />
-          <Route path="/scotlandyardcw" exact Component={ScotlandYardCW} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );
