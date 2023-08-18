@@ -10,6 +10,12 @@
   cursor: pointer;
 }
 
+.btn,
+.btn:active,
+.btn:focus {
+  outline: none;
+}
+
 .btn--primary {
   background-color: var(--primary-color);
   color: #242424;
@@ -26,7 +32,7 @@
 
 .btn--text {
   background-color: transparent;
-  color: #737373;
+  color: #8e8e8e;
   padding: 8px 20px;
   transition: all 0.3s ease-out;
 }
@@ -44,7 +50,7 @@
   font-size: 20px;
   font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 700;
-
+  outline: none;
 }
 
 .btn--large {
@@ -64,4 +70,5 @@
   color: #000000;
   transition: 250ms;
   font-weight: bolder;
+  outline: none;
 }

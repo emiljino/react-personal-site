@@ -10,6 +10,7 @@ import CV from "./Components/Pages/CV";
 import Contact from "./Components/Pages/Contact";
 import Footer from "./Components/Footer";
 import ProjectDisplay from "./Components/Pages/ProjectDisplay";
+import ScrollToTop from "./Components/ScrollToTop";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <>
       <Router>
         <Navbar />
+        <ScrollToTop /> 
         <Routes>
           <Route path="/" exact Component={Home} />
           <Route path="/projects" exact Component={Projects} />

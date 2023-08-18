@@ -3,7 +3,6 @@ body {
 }
 
 .main-container {
-  /* height: 70vh; */
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -22,7 +21,8 @@ body {
   font-size: 80px;
   color: #000000;
   margin-top: 100px;
-
+  font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -52,35 +52,14 @@ body {
   margin-top: 20px;
   font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 400;
-  /* outline: red dashed 1px; */
 }
 
-/* .main-btns {
-  margin-top: 32px;
-  color: #000000;
-
-}
-
-.main-btns .btn {
-  margin: 6px;
-  color: #000000;
-  /* outline: red dashed 1px; 
-
-}
-
-.fa-play-circle {
-  margin-left: 4px;
-  /* outline: red dashed 1px; 
-
-} */
 
 
 
 @media screen and (max-width: 1160px) {
 
   .main-container {
-    /* background: url("/images/img-home.jpg") center center/cover no-repeat;  */
-    /* min-height: 100vh; */
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -108,8 +87,6 @@ body {
 @media screen and (max-width: 960px) {
 
   .main-container {
-    /* background: url("/images/img-home.jpg") center center/cover no-repeat;  */
-    /* min-height: 100vh; */
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -125,7 +102,6 @@ body {
   .main-container > h1 {
     font-size: 70px;
     margin-top: 100px;
-    /* outline: red dashed 1px; */
 
   }
 
@@ -134,7 +110,6 @@ body {
     color: #000000;
     margin-top: 8px;
     font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* outline: red dashed 1px; */
 
   }
 
@@ -150,26 +125,22 @@ body {
   .main-container > h1 {
     font-size: 60px;
     margin-top: 100px;
-    /* outline: red dashed 1px; */
 
   }
 
   .main-container > p {
     font-size: 30px;
-    /* outline: red dashed 1px; */
 
   }
 
   .btn-mobile {
     display: block;
     text-decoration: none;
-    /* outline: red dashed 1px; */
 
   }
 
   .btn {
     width: 100%;  
-    /* outline: red dashed 1px; */
 
   }
 }
@@ -179,8 +150,6 @@ body {
 @media screen and (max-width: 400px) {
 
   .main-container {
-    /* background: url("/images/img-home.jpg") center center/cover no-repeat;  */
-    /* min-height: 100vh; */
     width: 90%;
     display: flex;
     flex-direction: column;
