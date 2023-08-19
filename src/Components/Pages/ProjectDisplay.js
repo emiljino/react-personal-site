@@ -3,17 +3,17 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import "../../Styles/ProjectDisplay.css";
-import { useNavigate } from "react-router-dom";
-import { Button } from "../Button";
+// import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function ProjectDisplay() {
   const { id } = useParams(); // Access the project ID from the route parameters
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const handleBack = () => {
-    navigate(-1); // Navigate back to the previous page
-  };
+  // const handleBack = () => {
+  //   navigate(-1); // Navigate back to the previous page
+  // };
 
   // Define an object or an array containing project data
   const projects = {
@@ -42,20 +42,17 @@ function ProjectDisplay() {
 
   return (
     <div className="project-display">
-      <Button
-        buttonStyle="btn--text"
-        buttonSize={"btn--medium2"}
-        onClick={handleBack}
-      >
-        <span
-          style={{ fontSize: "28px", marginRight: "4px", fontWeight: "20" }}
-        >
-          &lt;
-        </span>
-        Back
-      </Button>
+          <Link to="/Projects" className="back-link">
+            <img
+              src="../Images/BackIcon.svg"
+              alt="Code Icon"
+              className="back-icon"
+            />
+            Back
+          </Link>
+      
       <h1>{project.title}</h1>
-      <img src={project.image} alt="Project Image" />
+      <img src={project.image} alt="Project" />
       <p>{project.description}</p>
       <a
         className="link"
