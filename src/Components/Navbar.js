@@ -40,7 +40,7 @@ function Navbar() {
         <div className="navbar-container">
           {/* Link to the home page */}
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            Emil Jino <img src="../Images/CodeIcon.svg" alt="Code Icon" />
+            emil.jino <img src="../Images/CodeIcon.svg" alt="Code Icon" />
           </Link>
           {/* Menu icon for mobile devices */}
           <div className="menu-icon" onClick={handleClick}>

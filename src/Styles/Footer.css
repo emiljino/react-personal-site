@@ -67,13 +67,14 @@
   transform: translateX(30px);
   font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
 }
 
 .social-logo img {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   margin-left: 5px;
-}
+  margin-top: 4px;}
 
 .website-rights {
   color: #000000;

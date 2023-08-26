@@ -32,13 +32,13 @@
   align-items: center;
   /* margin-left: 60px; */
   font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   position: relative;
 }
 
 .navbar-logo img {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   margin-left: 5px;
   margin-top: 6px;
 }
@@ -68,6 +68,8 @@
   width: 100%;
   margin-right: 2rem;
   list-style: none; /* Remove the default bullet points */
+  overflow-y: auto;
+  max-height: calc(100vh - 80px); /* Limit the menu height to the viewport height minus navbar height */
 
 }
 

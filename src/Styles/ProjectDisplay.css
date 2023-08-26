@@ -58,7 +58,6 @@
   margin-left: 100px;
   font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
-  
 }
 
 
@@ -71,7 +70,7 @@
   margin-right: auto;
   /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add the shadow */
   box-shadow: 0px 6px 20px 10px rgba(56, 125, 255, 0.17);
-
+  border-radius: 10px;
   display: flex;
 }
 
@@ -86,6 +85,12 @@
     'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
   text-align: justify;
+  hyphens: auto;
+}
+
+.project-display p.proj-lang {
+  font-size: 25px;
+  font-weight: lighter;
 }
 
 .project-display a.link {
@@ -123,7 +128,7 @@
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 850px) {
 
   .project-display h1 {
     font-size: 45px;
@@ -173,7 +178,8 @@
     max-width: 100%;
     margin-top:20px;
     margin-bottom: 20px;
-    margin-left: 0px;
+    margin-left: auto;
+  margin-right: auto;
     
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add the shadow */
   }
