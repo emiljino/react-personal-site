@@ -16,11 +16,10 @@ function MainSection() {
         {/* A subtitle for the main section */}
         <p className="intro">
           I'm a software engineer in my 4th year at the University of Bristol,
-          studying computer science. With a strong foundation in Java and C++,
-          I've completed diverse projects in web development and mobile
-          applications, highlighting my technical skills, problem-solving
-          abilities, and collaboration aptitude. Explore my portfolio to learn
-          more about me!
+          studying computer science. With a strong foundation in Python, Java
+          and C++, I've completed a variety of projects, highlighting my
+          technical skills, problem-solving abilities, and collaboration
+          aptitude. Explore my portfolio to learn more about me!
         </p>
       </div>
     </div>
