@@ -1,3 +1,14 @@
+/** @format */
+
+.success-toast {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-size: 30px;
+  padding: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .contact-container {
   width: 75%;
@@ -11,72 +22,66 @@
 }
 
 ::placeholder {
-  font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .contact-container > h1 {
   font-size: 70px;
   color: #000000;
   margin-top: 55px;
-  font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   align-self: start;
 }
 
 .contact-info {
-  width:100%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-
-
 .text-container {
-  width:450px;
+  width: 450px;
   margin-top: 75px;
-  font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   align-self: flex-start;
 }
 
 .text-container p {
   font-size: 24px;
-  font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Raleway", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .text-container p.contact-heading-text {
-  font-size:17px;
+  font-size: 17px;
   margin-top: 10px;
 }
 
 .text-container p.contact-heading-text1 {
-  font-size:17px;
+  font-size: 17px;
   margin-top: 10px;
 }
 
-
 .input-areas {
   width: 620px;
-  /* margin-left: 567px; */
   margin-top: 75px;
   align-self: flex-end;
-
 }
 
-
-.contact-name-input{
+.contact-name-input {
   /* display: inline-flex; */
-    padding: 0.5rem;
-    width: 300px;
-    height: 45px;
-    font-size: 15px;
-    font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-    font-weight: 600;
-  }
+  padding: 0.5rem;
+  width: 300px;
+  height: 45px;
+  font-size: 15px;
+  font-family: "Raleway", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 600;
+}
 
 .contact-email-input {
   /* display: inline-flex; */
@@ -85,11 +90,10 @@
   width: 300px;
   height: 45px;
   font-size: 15px;
-  font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-    font-weight: 600;
+  font-family: "Raleway", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 600;
 }
-
 
 .contact-message-input {
   /* display: inline-flex; */
@@ -99,9 +103,9 @@
   width: 620px;
   height: 150px;
   font-size: 15px;
-  font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-    font-weight: 600;
+  font-family: "Raleway", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 600;
 }
 
 .input-areas .btn {
@@ -116,57 +120,49 @@
   color: black;
 }
 
-
-
-
-
 @media screen and (max-width: 1430px) {
   .contact-container {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
   }
-  
+
   .contact-container > h1 {
     align-self: center;
     font-size: 70px;
     color: #000000;
     margin-top: 55px;
-    font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-    }
+    font-family: "Raleway", "Trebuchet MS", "Lucida Sans Unicode",
+      "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
 
   .contact-info {
     width: 100%;
     display: inline-block;
     align-items: center;
     justify-content: center;
-    
   }
 
-
   .text-container {
-    width:450px;
+    width: 450px;
     margin-top: 55px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
-    font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-    }
-
+    justify-content: center;
+    font-family: "Raleway", "Trebuchet MS", "Lucida Sans Unicode",
+      "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
 
   .input-areas {
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
   }
-
 }
 
 @media screen and (max-width: 840px) {
@@ -175,23 +171,22 @@
     flex-direction: column;
     align-items: center;
   }
-  
+
   .contact-container > h1 {
     align-self: center;
     font-size: 50px;
     color: #000000;
     margin-top: 55px;
-    font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-    }
+    font-family: "Raleway", "Trebuchet MS", "Lucida Sans Unicode",
+      "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
 
-    .contact-info {
-      width: 100%;
-      display: inline-block;
-      align-items: center;
-      justify-content: center;
-      
-    }
+  .contact-info {
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+  }
 
   .text-container {
     width: 100%;
@@ -201,51 +196,49 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
-    font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-    }
-
-  .text-container p.contact-heading-text {
-    font-size:17px;
-    margin-top: 10px;
-text-align: center;    
+    justify-content: center;
+    font-family: "Raleway", "Trebuchet MS", "Lucida Sans Unicode",
+      "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   }
 
+  .text-container p.contact-heading-text {
+    font-size: 17px;
+    margin-top: 10px;
+    text-align: center;
+  }
 
   .input-areas {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
   }
 
-  .contact-name-input{
+  .contact-name-input {
     display: flex;
-      padding: 0.5rem;
-      margin-left: auto;
+    padding: 0.5rem;
+    margin-left: auto;
     margin-right: auto;
-      width: 300px;
-      height: 45px;
-      font-size: 15px;
-    }
-  
+    width: 300px;
+    height: 45px;
+    font-size: 15px;
+  }
+
   .contact-email-input {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top:20px;
+    margin-top: 20px;
     padding: 0.5rem;
     width: 300px;
     height: 45px;
     font-size: 15px;
   }
-  
-  
+
   .contact-message-input {
     display: flex;
     margin-top: 20px;
@@ -256,22 +249,16 @@ text-align: center;
     height: 150px;
     font-size: 15px;
   }
-  
+
   .input-areas .btn {
     margin-top: 20px;
     width: 300px;
     background-color: #000000;
     color: white;
   }
-  
+
   .input-areas .btn:hover {
     background-color: white;
     color: black;
   }
 }
-
-
-
-
-
-

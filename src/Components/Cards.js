@@ -57,20 +57,8 @@ function Cards() {
               label="ScotLand Yard "
               path="/project/7"
             />
-            <CardItem
-              src=""
-              text=""
-              label=""
-              path=""
-              empty // Add this prop to indicate it's an empty card
-            />
-            <CardItem
-              src=""
-              text=""
-              label=""
-              path=""
-              empty // Add this prop to indicate it's an empty card
-            />
+            <CardItem src="" text="" label="" path="" empty />
+            <CardItem src="" text="" label="" path="" empty />
           </ul>
         </div>
       </div>
