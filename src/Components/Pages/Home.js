@@ -6,7 +6,6 @@ function Home() {
   return (
     <>
       <MainSection />
-      {/* <Cards /> */}
     </>
   );
 }

@@ -1,20 +1,18 @@
 /** @format */
 
-/* Importing React and CSS file for Button component */
 import React from "react";
 import { Link } from "react-router-dom";
 import "../Styles/Button.css";
-// Define possible styles and sizes for the button
 const STYLES = ["btn--primary", "btn--outline", "btn--text"];
 const SIZES = ["btn--medium", "btn--medium2", "btn--large"];
 
 // Define the Button component
 export const Button = ({
-  children, // Text inside the button
-  type, // Type of button (e.g. "submit", "reset", "button")
-  onClick, // Function to be called when button is clicked
-  buttonStyle, // Style of the button (e.g. "btn--primary", "btn--outline")
-  buttonSize, // Size of the button (e.g. "btn--medium", "btn--large")
+  children,
+  type,
+  onClick,
+  buttonStyle,
+  buttonSize,
 }) => {
   // Check if buttonStyle prop is valid, default to first style if not
   const checkButtonStyle = STYLES.includes(buttonStyle)
@@ -28,11 +26,11 @@ export const Button = ({
   return (
     <Link to="/contact" className="btn-mobile">
       <button
-        className={`btn ${checkButtonStyle} ${checkButtonSize}`} // Set class name based on style and size props
-        onClick={onClick} // Set onClick function
-        type={type} // Set type of button
+        className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+        onClick={onClick}
+        type={type}
       >
-        {children} {/* Render text inside button */}
+        {children}
       </button>
     </Link>
   );

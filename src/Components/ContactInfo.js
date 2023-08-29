@@ -6,6 +6,8 @@ import "../Styles/ContactInfo.css";
 import { Button } from "./Button";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+import { toast } from "react-toastify"; // Import the toast module
+import "react-toastify/dist/ReactToastify.css"; // Import the default styles
 
 const ContactInfo = () => {
   const form = useRef();
@@ -25,6 +27,7 @@ const ContactInfo = () => {
           (result) => {
             console.log(result.text);
             form.current.reset();
+            showSuccessToast();
           },
           (error) => {
             console.log(error.text);
@@ -34,6 +37,13 @@ const ContactInfo = () => {
       // Show an error message to the user or handle validation feedback
       console.log("Form is not valid");
     }
+  };
+
+  const showSuccessToast = () => {
+    toast.success("Message sent successfully!", {
+      position: toast.POSITION.BOTTOM_CENTER,
+      className: "success-toast",
+    });
   };
 
   return (
