@@ -60,7 +60,7 @@ function Navbar() {
 
             <li className="nav-item">
               <a
-                href={process.env.PUBLIC_URL + "/Software_Engineer_CV.pdf"}
+                href={process.env.PUBLIC_URL + "/CV.pdf"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="nav-links"
