@@ -5,36 +5,35 @@ import "../App.css";
 import "../Styles/ContactInfo.css";
 import { Button } from "./Button";
 import { useRef } from "react";
+import { useState } from "react";
 import emailjs from "emailjs-com";
 import { toast } from "react-toastify"; // Import the toast module
 import "react-toastify/dist/ReactToastify.css"; // Import the default styles
 
 const ContactInfo = () => {
+  const [isSending, setIsSending] = useState(false); // Initialize isSending state
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
 
     if (form.current.checkValidity()) {
-      emailjs
-        .sendForm(
+      setIsSending(true); // Start sending, update the state
+      try {
+        await emailjs.sendForm(
           "service_c5w3v6p",
           "template_l1cxmnp",
           form.current,
           "XuxYxqrTqJhumlTVl"
-        )
-        .then(
-          (result) => {
-            console.log(result.text);
-            form.current.reset();
-            showSuccessToast();
-          },
-          (error) => {
-            console.log(error.text);
-          }
         );
+        form.current.reset();
+        showSuccessToast();
+      } catch (error) {
+        console.error("Error sending email:", error);
+      } finally {
+        setIsSending(false); // Sending completed, update the state
+      }
     } else {
-      // Show an error message to the user or handle validation feedback
       console.log("Form is not valid");
     }
   };
@@ -80,8 +79,12 @@ const ContactInfo = () => {
               placeholder="Message"
               className="contact-message-input"
             />
-            <Button onClick={sendEmail} buttonStyle="btn--outline">
-              SEND
+            <Button
+              onClick={sendEmail}
+              buttonStyle="btn--outline"
+              disabled={isSending} // Add a state variable to track whether sending is in progress
+            >
+              {isSending ? "Sending..." : "SEND"}
             </Button>
           </form>
         </div>
