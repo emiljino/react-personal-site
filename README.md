@@ -1,7 +1,6 @@
 ## Access site at: https://emiljino.com
 
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This site was made to showcase my web development skills and present some of my personal projects. Built using React.js
 
 ## Available Scripts
 
