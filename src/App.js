@@ -11,6 +11,8 @@ import Contact from "./Components/Pages/Contact";
 import Footer from "./Components/Footer";
 import ProjectDisplay from "./Components/Pages/ProjectDisplay";
 import ScrollToTop from "./Components/ScrollToTop";
+import NotFound from './Components/Pages/NotFound';
+
 
 
 function App() {
@@ -25,6 +27,7 @@ function App() {
           <Route path="/project/:id" exact Component={ProjectDisplay} />
           <Route path="/cv" exact Component={CV} />
           <Route path="/contact" exact Component={Contact} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </Router>
