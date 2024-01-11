@@ -61,6 +61,7 @@ const ContactInfo = () => {
             <input
               type="text"
               name="name"
+              autocomplete="name"
               required
               placeholder="Full Name"
               className="contact-name-input"
@@ -68,6 +69,7 @@ const ContactInfo = () => {
             <input
               type="email"
               name="email"
+              autocomplete="email"
               required
               placeholder="Your Email"
               className="contact-email-input"
