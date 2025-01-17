@@ -11,7 +11,11 @@ function MainSection() {
       <div className="main-text-container">
         <p className="name">Hello, I'm Emil</p>{" "}
         <p className="intro">
-          I'm a graduate software consultant specializing in Atlassian products. With a strong foundation in Python, Java, and C++, I continue to explore my passion for programming and machine learning. My journey from studying computer science at the University of Bristol to working in the tech industry showcases my technical expertise, problem-solving abilities, and collaborative skills. Explore my portfolio to learn more about me!
+          I'm a Software Consultant specialising in Atlassian products. With a strong foundation in Python, Java, and C++, 
+          I continue to explore my passion for programming and machine learning. 
+          My journey from studying computer science at the University of Bristol to working 
+          in the tech industry showcases my technical expertise, problem-solving abilities, 
+          and collaborative skills. Explore my portfolio to learn more about me!
         </p>
       </div>
     </div>
