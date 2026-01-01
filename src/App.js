@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import React from "react";
 import Home from "./Components/Pages/Home";
 import Projects from "./Components/Pages/Projects";
-import CV from "./Components/Pages/CV";
+import CV from "./Components/Pages/AC_CV__apps_";
 import Contact from "./Components/Pages/Contact";
 import Footer from "./Components/Footer";
 import ProjectDisplay from "./Components/Pages/ProjectDisplay";
